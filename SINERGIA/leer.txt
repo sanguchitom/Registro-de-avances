@@ -1,0 +1,12 @@
+::: Este programa viene con librerias que necesita para funcionar, se encuentran en requeriments.txt ::::
+- Yo vi que si sabes programar asi que no explicare lo básico pero si lo importante.
+- En la carpeta app, hay un archivo scheduler.py que funciona para programar funciones automaticas para el funcionamiento
+correcto del programa.
+Importante recordar que este archivo necesita saber la zona horaria que se encuentra por defecto esta la 'UTC' que es el
+horario de la computadora, si querés ponerle hora mexico anda a la carpeta core, setttings.py y busca una variable TIME_ZONE = 'UTC'
+la cual vas a cambiar a TIME_ZONE = 'America/Mexico_City' u otras zonas horarias que quieras.
+- En el panel de administrador de django veras los modelos que existen, ahi lo unico que tendras que crear son los Servicios
+lo otro es automatico y obviamente tendrás que enviar peticiones del front para que funcione.
+- En cada archivo seguramente te explico como funciona tal codigo.
+- leer el primer mensaje de views para saber un poquito como funciona.
+Eso es todo por ahora. saludos

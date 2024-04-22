@@ -1,0 +1,23 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Django migration files
+**/migrations/
+
+# Ignore local development settings
+.env
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore APScheduler database file
+apscheduler.sqlite3
